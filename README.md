@@ -9,7 +9,12 @@ Steps to use my password generator:
 2. Enter length of the password
 3. Answer if you would like to include lowercase, uppercase, special characters, or numbers.
 
+<h1>Application</h1>
+https://neongreen64.github.io/challenge3/
 
 <h1>License</h1>
 
 Please refer to the LICENSE in the repo.
+
+
+![Picture of my password generator](image.png)
