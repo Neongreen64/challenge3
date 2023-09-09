@@ -6,7 +6,7 @@ function generatePassword(){
   var password = "";
   var lowercase = "abcdefghijklmnopqrstuvwxyz";
   var uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-  var special = "!#$%&'()*+,-./::<>?@[]^_~`{}|";
+  var special = "!#$%&'()*+,-./::<>?@[]^_~`{}\"\\";
   var number = "0123456789";
   var generator = "";
 
@@ -53,10 +53,9 @@ function generatePassword(){
     var character = Math.floor(Math.random() * generator.length + 1);
     password += generator.charAt(character);
   }
-  console.log(generator);
-  console.log(password);
-  return password;
   
+  return password;
+
 }
 
 // Write password to the #password input
